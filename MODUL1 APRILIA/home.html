@@ -1,3 +1,122 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <img class="navbar-brand img-logo" src="logo-ead.png" alt="logo">
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row mt-lg-5">
+        <div class="col-6 bg-dark p-lg-5">
+            <iframe class="iframe-video" src="https://www.youtube.com/embed/AwMeQJ_u73I?controls=0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+
+        <div class="col-6 p-lg-5 bg-white card-body">
+            <h3 class="text-center">Registrasi Data Pelanggan</h3>
+            <form action="" class="mt-lg-5">
+                <div class="form-group row">
+                    <label for="name" class="col-sm-4 col-form-label">Nama</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="name" placeholder="Nama Anda">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="phone" class="col-sm-4 col-form-label">Nomor HP</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="phone" placeholder="Nomor HP">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="address" class="col-sm-4 col-form-label">Alamat</label>
+                    <div class="col-sm-8">
+                        <textarea type="text" class="form-control" id="address">
+
+                        </textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="payment" class="col-sm-4 col-form-label">Pembayaran</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="payment" placeholder="Pembayaran">
+                    </div>
+                </div>
+
+
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-sm-4 pt-0">Radios</legend>
+                        <div class="col-sm-8">
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="payment" id="cash" value="cash">
+                                <label class="form-check-label" for="cash">
+                                    Cash
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="payment" id="credit" value="credit">
+                                <label class="form-check-label" for="credit">
+                                    Credit
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-group row">
+                    <label for="category" class="col-sm-4 col-form-label">Kategori Pesanan</label>
+                    <div class="col-sm-8">
+                        <select class="custom-select" id="category">
+                            <option selected>Pilih...</option>
+                            <option value="keyboard">Keyboard</option>
+                            <option value="Mouse">Mouse</option>
+                            <option value="Komputer">Komputer</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="button" class="col-sm-12 btn btn-primary">Kirim</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>-->
+</body>
 </html>
