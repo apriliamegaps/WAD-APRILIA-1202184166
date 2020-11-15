@@ -5,4 +5,4 @@
 
 	$query = mysqli_query($koneksi, "DELETE FROM event where id=$id");
 
-	header("location:../tampilan/home.php");
+	header("location:../tampilan/index.php");

@@ -21,10 +21,10 @@ if (isset($_POST)) {
     '$berakhir' ,'$tempat','$harga','$benefit')");
 
     if($nambah){
-        header('location:../tampilan/home.php');
+        header('location:../tampilan/index.php');
     } else {
         echo "Gagal Nama = $name, Desk =  $deskripsi, <br> kategori = $kategori, tanggal = $tanggal,  mulai = $mulai, berakhir = $berakhir, tempat = $tempat, harga = $harga, benefit = $benefit, gambar = $gambar ";
     }
 
-    // header('location:../tampilan/home.php');
+    // header('location:../tampilan/index.php');
 }

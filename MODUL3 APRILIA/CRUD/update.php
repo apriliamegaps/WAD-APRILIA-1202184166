@@ -22,7 +22,7 @@ if (isset($_POST)) {
     mulai = '$mulai', berakhir = '$berakhir', tempat = '$tempat', harga = '$harga', benefit = '$benefit' Where id='$id'");
 
     if ($nambah) {
-        header('location:../tampilan/home.php');
+        header('location:../tampilan/index.php');
     } else {
         echo "Gagal Nama = $name, Desk =  $deskripsi, <br> kategori = $kategori, tanggal = $tanggal,  mulai = $mulai, berakhir = $berakhir, tempat = $tempat, harga = $harga, benefit = $benefit, gambar = $gambar ";
     }
